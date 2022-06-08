@@ -1,7 +1,7 @@
 body, html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
-  padding: 0 1rem 0 1rem;
+  padding: 0 .2rem 0 .2rem;
   font-size: 100%;
   overflow-x: hidden;
 }
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -25,6 +25,8 @@ a {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 0.3rem 0.1rem;
@@ -36,12 +38,18 @@ header > h1 {
 
 header {
   margin: 1rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 header > div > img {
@@ -61,28 +69,34 @@ header > div > h1 {
 }
 
 #links-section ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 0.3rem 0.7rem 0 0;
+  margin: .3rem .7rem 0 0;
 }
+
 #links-section ul a {
   font-size: 1.2rem;
-  opacity: 0.7;
+  opacity: .7;
 }
+
 #links-section ul a:hover {
-  transition: opacity 0.5s;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
   opacity: 1;
 }
 
 main #about-section p {
-  margin: 0.5rem 0.4rem 0 0.4rem;
+  margin: 0.5rem .4rem 0 .4rem;
 }
+
 main h2 {
   margin: 1rem 0 0 0;
   font-weight: 500;
 }
 
 .project-card {
-  margin: 1rem 0.4rem 0 0.4rem;
+  margin: 1rem .4rem 0 .4rem;
 }
 
 .project-card > h4 {
@@ -92,19 +106,21 @@ main h2 {
 
 .project-card a {
   display: inline-block;
-  margin: 0.3rem 0.5rem 0 0;
+  margin: .3rem .5rem 0 0;
   font-size: 1rem;
-  opacity: 0.7;
+  opacity: .7;
 }
+
 .project-card a:hover {
-  transition: opacity 0.5s;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
   opacity: 1;
 }
 
 footer p {
   text-align: center;
   margin-top: 2rem;
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -113,5 +129,4 @@ footer p {
     margin: auto;
   }
 }
-
 /*# sourceMappingURL=styles.css.map */
