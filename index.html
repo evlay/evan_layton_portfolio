@@ -6,6 +6,7 @@
     <title>Evan Layton | Developer</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -13,34 +14,47 @@
         <h1>Evan Layton</h1>
       </div>
     </header>
-    
+
     <main>
       <div id="links-section">
-          <ul>
-            <a href="#">Resume</a>
-          </ul>
-          <ul>
-            <a target="_blank" href="https://github.com/evlay">Github</a>
-          </ul>
-          <ul>
-            <a target="_blank" href="https://www.linkedin.com/in/evan-layton-7838bb172/">LinkedIn</a>
-          </ul>
+        <ul>
+          <a href="#">Resume</a>
+        </ul>
+        <ul>
+          <a target="_blank" href="https://github.com/evlay">Github</a>
+        </ul>
+        <ul>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/evan-layton-7838bb172/"
+            >LinkedIn</a
+          >
+        </ul>
       </div>
       <section id="about-section">
         <h2>About Me</h2>
         <p>
-          I am a software developer with over 4 years of industry experience in the finance sector with a focus on web development using Javascript, PHP, HTML and CSS. Outside of work I thoroughly enjoy fishing, hockey and spending time with my family. 
+          I am a software developer with over 4 years of industry experience in
+          the finance sector with a focus on web development using Javascript,
+          PHP, HTML and CSS. Outside of work I thoroughly enjoy fishing, hockey
+          and spending time with my family.
         </p>
       </section>
       <section id="work-section">
         <h2>My Work</h2>
-        <hr>
+        <hr />
         <div class="project-list">
           <div class="project-card">
             <h4>American First Finance</h4>
-            <p>A payment solution provider that is committed to helping millions of people get what they need exactly how, where, and when they need it the most.</p>
-            <a href="#">Try It</a>
-            <a target="_blank" href="https://americanfirstfinance.com/">Website</a>
+            <p>
+              A payment solution provider that is committed to helping millions
+              of people get what they need exactly how, where, and when they
+              need it the most.
+            </p>
+            <!-- <a href="#">Try It</a> -->
+            <a target="_blank" href="https://americanfirstfinance.com/"
+              >Website</a
+            >
           </div>
           <!-- <div class="project-card">
             <h4>Plaudit</h4>
@@ -55,15 +69,35 @@
           </div> -->
         </div>
       </section>
+      <section id="fish-section">
+        <hr />
+        <div id="fish-header">
+          <h2>Fishing Gallery</h2>
+          <button alt="triangle-button-show-fish-section" id="show-fish-btn">
+            <img 
+              src="./images/up-triangle-fill.svg"
+              id="up-triangle"
+              style="display:block"
+              />
+              <img 
+              src="./images/down-triangle-fill.svg"
+              id="down-triangle"
+              style="display: none;"
+              />
+          </button>
+        </div>
+        <div id="fish-pic-gallery"
+        style="display: none;">
+          <span>Fish pic here</span>
+        </div>
+      </section>
     </main>
     <footer>
-      <p>
-        Really Good Footer
-      </p>
+      <p>Really Good Footer</p>
     </footer>
   </body>
 </html>
-
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 </style>
+<script src="index.js"></script>
